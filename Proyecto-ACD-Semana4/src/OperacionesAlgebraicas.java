@@ -23,8 +23,10 @@ public class OperacionesAlgebraicas {
                              "es", 
                              respt);
         
-        /*System.out.println("Deme el numero ENTERO para calcular su potencia: ");
-        num2 = tcl.nextInt();*/
+        System.out.print("Deme el numero ENTERO para calcular su potencia: ");
+        num2 = tcl.nextInt();
+        respt = Math.pow(num1, num2);
+        System.out.println(num1+" elevado a "+num2+" es: "+respt);
         
     }
 }
